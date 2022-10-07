@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: white;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar a {
+  float: left;
+  color: bisque;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  background-color: rgb(132, 202, 105);
+  color: rgb(32, 102, 32);
+}
+
+.navbar a.active {
+  background-color: rgb(32, 102, 32);
+}
+
+.container {
+  padding-top: 100px;
+  padding-bottom: 10%;
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+  text-align: justify;
+}
+
+.subcontainer {
+  padding-top: 100px;
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+  text-align: justify;
+}
+
+.subcontainer h1 {
+  color: rgb(132, 202, 105);
+  text-decoration: underline;
+}
+
+.subcontainer h2 {
+  color: rgb(32, 102, 32);
+}
+
+.container span {
+  grid-template-columns: 80px auto 80px;
+}
+
+.subcontainer a img {
+  width: 50px;
+  height: 50px;
+  margin-right: 5%;
+}
+
+.subcontainer a img:hover {
+  width: 100px;
+  height: 100px;
+  transition-duration: 1s;
+}
+
+.profile {
+  border-radius: 30%;
+  width: 30%;
+  height: auto;
+  float: right;
+  margin-left: 5%;
+}
+
+.grid {
+  display: grid;
+  padding-top: 5em;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1%;
+  width: 100%;
+}
+
+.square {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  background-color: black;
+  border-radius: 5%;
+}
+
+.minisquare {
+  float: left;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
+  padding: 0;
+  border-radius: 5%;
+  margin-right: 5%;
+}
+
+.square img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  padding: 0;
+  border-radius: 5%;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    position: fixed;
+    bottom: 0;
+  }
+}
