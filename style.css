@@ -44,7 +44,7 @@ body {
 
 .container {
   padding-top: 100px;
-  padding-bottom: 10%;
+  padding-bottom: 0;
   justify-content: center;
   margin: auto;
   width: 50%;
