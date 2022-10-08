@@ -130,7 +130,7 @@ body {
 
 @media screen and (max-width: 480px) {
   .navbar {
-    position: fixed;
+    position: absolute;
     bottom: 0;
   }
 }
