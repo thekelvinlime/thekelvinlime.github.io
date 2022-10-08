@@ -128,7 +128,7 @@ body {
   border-radius: 5%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   .navbar {
     position: fixed;
     bottom: 0;
